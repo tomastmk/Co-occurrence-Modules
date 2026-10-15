@@ -1,0 +1,70 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Virtual environments
+# ==========================
+.venv/
+venv/
+env/
+
+# ==========================
+# Secrets and local settings
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Logs and temporary files
+# ==========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================
+# Generated outputs
+# Customize for your project
+# ==========================
+results/
+outputs/
+tmp/
+temp/
+logs/
+
+# ==========================
+# Local editor and OS files
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Build and distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Pixi
+# ==========================
+.pixi/
